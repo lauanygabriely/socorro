@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-image: url(pipim.png);
+        }
+
+        .correto {
+            text-align: center;
+            margin-right: 150px;
+            margin-left: 150px;
+            background-color: aliceblue;
+            border-radius: 15px;
+        }
+
+        #c {
+            color: red;
+        }
+
+        a {
+            color: black;
+        }
+    </style>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <script>
+
+        // Inicialização das variáveis de contagem
+        let acertos = 0;
+        let erros = 0;
+
+        // Pergunta 1 sobre o protagonista
+        let per1 = prompt("Qual é o nome do protagonista que sonha em se tornar um grande jogador de vôlei, apesar de sua baixa estatura? (a) Shoyo Hinata (b) Tobio Kageyama (c) Asahi Azumane", "");
+
+        if (per1 === "a") {
+            alert("Correto!");
+            acertos++;
+        } else {
+            alert("Incorreto!");
+            erros++;
+        }
+
+        // Pergunta 2 sobre o levantador de Karasuno
+        let per2 = prompt("Quem é o levantador de Karasuno que tem um estilo de jogo exigente e é conhecido como Rei do Vôlei? (a) Daichi Sawamura (b) Tobio Kageyama (c) Koshi Sugawara", "");
+
+        if (per2 === "b") {
+            alert("Correto!.");
+            acertos++;
+        } else {
+            alert("Incorreto!.");
+            erros++;
+        }
+
+        // Pergunta 3 sobre o líbero
+        let per3 = prompt("Quem é o líbero do time Karasuno, conhecido por suas habilidades defensivas? (a) Kageyama Tobio (b) Yuu Nishinoya (c) Kei Tsukishima", "");
+
+        if (per3 === "b") {
+            alert("Correto! .");
+            acertos++;
+        } else {
+            alert("Incorreto!.");
+            erros++;
+        }
+
+        // Pergunta 4 sobre batalha do lixão
+        let per4 = prompt("Qual é o nome do time em que compõe junto com Karasuno a batalha do lixõa? (a) nekoma (b)  Shiratorizawa (c) Inarizaki", "");
+
+        if (per4 === "a") {
+            alert("Correto!.");
+            acertos++;
+        } else {
+            alert("Incorreto!.");
+            erros++;
+        }
+
+        // Pergunta 5 sobre uniforme
+        let per5 = prompt("Qual é o cor do uniforme do time Karasuno? (a) Azul e branco (b) Preto e laranja (c) Vermelho e amarelo", "");
+
+
+        if (per5 === "b") {
+            alert("Correto!.");
+            acertos++;
+        } else {
+            alert("Incorreto!.");
+            erros++;
+        }
+
+        // Pergunta 6 sobre shoyo
+        let per6 = prompt("Em qual escola Shoyo Hinata se torna um jogador de vôlei? (a) Aoba Josai (b) Academia Fukurodani (c) Escola Secundária Karasuno", "");
+
+
+        if (per6 === "c") {
+            alert("Correto!.");
+            acertos++;
+        } else {
+            alert("Incorreto!.");
+            erros++;
+        }
+
+        // Pergunta 7 sobre Kageyama  
+        let per7 = prompt("O que caracteriza o estilo de jogo de Kageyama no início da série? (a) ser amigável (b) ser encorajador (c) ser exigente", "");
+
+
+        if (per7 === "c") {
+            alert("Correto!");
+            acertos++;
+        } else {
+            alert("Incorreto!");
+            erros++;
+        }
+
+        // Exibir o resultado final
+        alert("A quantidade de acertos foi: " + acertos);
+        alert("A quantidade de erros foi: " + erros);
+
+        // Mensagem final com base nos resultados
+        if (acertos > erros) {
+            alert("Parabéns! Você realmente conhece Haikyuu!");
+        } else {
+            alert("Você não sabe muito sobre Haikyuu.");
+
+        }
+
+
+    </script>
+    <div class="correto">
+        <h2>Respostas corretas </h2>
+        <p>Pergunta 1: Qual é o nome do protagonista que sonha em se tornar um grande jogador de vôlei, apesar de sua
+            baixa
+            estatura?</p>
+        <p id="c">(a) Shoyo Hinata</p>
+        <p> (b) Tobio Kageyama</p>
+        <p> (c) Asahi Azumane </p>
+
+        <p>Pergunta 2: Quem é o levantador de Karasuno que tem um estilo de jogo exigente e é conhecido como Rei do
+            Vôlei?</p>
+        <p> (a) Daichi Sawamura</p>
+        <p id="c">(b) Tobio Kageyama</p>
+        <p> (c) Koshi Sugawara</p>
+
+        <p>Pergunta 3: Quem é o líbero do time Karasuno, conhecido por suas habilidades defensivas?<br>
+        <p>(a) Kageyama Tobio</p>
+        <p id="c">(b) Yuu Nishinoy</p>
+        <p>(c) Kei Tsukishima</p>
+
+        <p>Pergunta 4: Qual é o nome do time em que compõe junto com Karasuno a batalha do lixõa?</p>
+        <p id="c"> (a) nekoma</p>
+        <p> (b) Shiratorizawa</p>
+        <p> (c) Inarizaki</p>
+
+        <p>Pergunta 5:Qual é o cor do uniforme do time Karasuno?</p>
+        <p> (a) Azul e branco </p>
+        <p id="c"> (b) Preto e laranja </p>
+        <p> (c) Vermelho e amarelo? </p>
+
+
+        <p>Pergunta 6: Em qual escola Shoyo Hinata se torna um jogador de vôlei? </p>
+        <p> (a) Aoba Josai </p>
+        <p> (b) Academia Fukurodani </p>
+        <p id="c"> (c) Escola Secundária Karasuno</p>
+
+        <p>Pergunta 7: O que caracteriza o estilo de jogo de Kageyama no início da série? </p>
+        <p> (a) ser amigável </p>
+        <p> (b) ser encorajador </p>
+        <p id="c"> (c) ser exigente</p>
+
+        <strong>⭐Ainda não assistiu? Corre para a Netflix e se prepare para emoções de tirar o fôlego com Haikyuu! Se já<br>
+            conhece, sabe que vale a pena rever e se apaixonar ainda mais por cada jogada e personagem desse anime<br>
+            inesquecível!"⭐ </strong><br>
+        <br><a href="https://www.netflix.com/br/">Netflix</a><br>
+        <br>
+    </div>
+</body>
+</head>
+
+</html>
